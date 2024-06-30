@@ -1,0 +1,180 @@
+name: wafed
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  auto_size_text: ^3.0.0
+  cupertino_icons: ^1.0.2
+  device_preview: ^1.1.0
+  flutter_staggered_grid_view: ^0.7.0
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  passwordfield: ^0.2.0
+  url_launcher: ^6.2.6
+  uni_links: ^0.5.1
+  flutter_localizations:
+        sdk: flutter
+  get: ^4.6.6      
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/all/iPhone 14 & 15 Pro - 135.png
+    - assets/images/all/uni_en.png
+    - assets/images/all/Frame 37.png
+    - assets/images/all/1.png
+    - assets/images/all/new logo.png
+    - assets/images/all/Frame_41-removebg.png
+    - assets/images/all/newFrame_41-removebg.png
+    - assets/images/topic/apartment.png
+    - assets/images/topic/chatroom.png
+    - assets/images/topic/colleges.png
+    - assets/images/topic/entertainement.png
+    - assets/images/topic/food.png
+    - assets/images/topic/hospital.png
+    - assets/images/topic/for complaints and inquiries.jpg
+    - assets/images/topic/for complaints and inquiries (2).jpg
+    - assets/images/food/donvito.png
+    - assets/images/food/eldemshqy 1.png
+    - assets/images/food/samena.png
+    - assets/images/food/trefl.png
+    - assets/images/food/mrsmash.jpeg
+    - assets/images/food/felfela.png
+    - assets/images/food/cheers.png
+    - assets/images/food/hathout.png
+    - assets/images/food/mug.png
+    - assets/images/food/bellissimo.png
+    - assets/images/food/tree.png
+    - assets/images/food/polar.jpeg
+    - assets/images/hospital/Ic_Dental.png
+    - assets/images/hospital/Ic_Consultation.png
+    - assets/images/hospital/Ic_Heart.png
+    - assets/images/hospital/Ic_Skin.png
+    - assets/images/hospital/Ic_Surgeon.png
+    - assets/images/hospital/Ic_Physician.png
+    - assets/images/hospital/dentistry.png
+    - assets/images/hospital/internal.jpeg
+    - assets/images/hospital/hospital.jpeg
+    - assets/images/hospital/Neurology.png
+    - assets/images/hospital/surgery.png
+    - assets/images/hospital/doctor_icon.jpeg
+    - assets/images/entertainement/Entertainement.png
+    - assets/images/entertainement/1.jpg
+    - assets/images/entertainement/2.jpeg
+    - assets/images/entertainement/3.jpg
+    - assets/images/entertainement/4.jpg
+    - assets/images/entertainement/5.jpg
+    - assets/images/entertainement/6.jpg
+    - assets/images/entertainement/7.jpg
+    - assets/images/entertainement/8.jpg
+    - assets/images/entertainement/city.jpeg
+    - assets/images/entertainement/club1.png
+    - assets/images/entertainement/club2.png
+    - assets/images/entertainement/club3.png
+    - assets/images/entertainement/club4.png
+    - assets/images/entertainement/الجمهوريه.jpg
+    - assets/images/entertainement/g1.jpg
+    - assets/images/entertainement/g2.jpg
+    - assets/images/entertainement/g3.jpeg
+    - assets/images/entertainement/g4.jpg
+    - assets/images/entertainement/ghazal.png
+    - assets/images/entertainement/gazal1.jpeg
+    - assets/images/entertainement/gazal3.jpeg
+    - assets/images/entertainement/gazal2.jpg
+    - assets/images/entertainement/gazal4.jpeg
+    - assets/images/colleges/1.png
+    - assets/images/colleges/2.png
+    - assets/images/colleges/3.png
+    - assets/images/colleges/4.jpeg
+    - assets/images/colleges/5.png
+    - assets/images/colleges/6.png
+    - assets/images/colleges/7.png
+    - assets/images/colleges/8.png
+    - assets/images/colleges/9.jpeg
+    - assets/images/colleges/10.jpeg
+    - assets/images/colleges/11.png
+    - assets/images/colleges/12.png
+    - assets/images/colleges/13.png
+    - assets/images/colleges/14.jpeg
+    - assets/images/colleges/15.png
+    - assets/images/colleges/16.png
+    - assets/images/colleges/17.png
+    - assets/images/colleges/18.png
+    - assets/images/colleges/19.png
+    - assets/images/all/back2.jpeg
+  #######################
+    - assets/lang/ar.json
+    - assets/lang/en.json
+    - assets/lang/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Zen Tokyo Zoo
+      fonts:
+        - asset: assets/fonts/ZenTokyoZoo-Regular.ttf
+    #       - asset: fonts/Schyler-Italic.ttf
+    #         style: italic
+    - family: Comic Neue
+      fonts:
+        - asset: assets/fonts/ComicNeue-Regular.ttf
+    #       - asset: fonts/TrajanPro_Bold.ttf
+    #         weight: 700
+    - family: Graduate
+      fonts:
+        - asset: assets/fonts/Graduate-Regular.ttf
+
+    - family: Merriweather
+      fonts:
+        - asset: assets/fonts/Merriweather-Regular.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true
